@@ -1,0 +1,225 @@
+body {
+  background: #191c22;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#block_container {
+  text-align: center;
+}
+#bloc1,
+#bloc2 {
+  display: inline;
+}
+.jumbotron {
+  background: black;
+}
+.text-warning {
+  color: orange !important;
+}
+.btn-warning {
+  background-color: orange !important;
+}
+.btn-warning:hover {
+  color: white !important;
+  background-color: rgba(255, 166, 0, 0.685) !important;
+}
+.btn-outline-light {
+  color: black !important;
+  background-color: rgb(255, 145, 0) !important;
+}
+.btn-outline-light:hover {
+  color: white !important;
+  background-color: orange !important;
+}
+.btn-dark {
+  background-color: #191c22;
+}
+.panel {
+  background: #191c22;
+}
+h1 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+h2 {
+  font-weight: bolder;
+  font-size: medium;
+  color: white;
+}
+.bg-dark {
+  background-color: black !important;
+}
+
+hr {
+  color: white;
+  background-color: white;
+}
+
+.form-control {
+  background-color: black;
+  color: #ffffff;
+}
+
+.form-control-file {
+  background-color: transparent !important;
+  color: #ffffff;
+}
+
+.alert-warning {
+  background: #ffffff;
+  color: red;
+}
+
+#circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+
+.loader {
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  border: 8px solid #162534;
+  border-top: 8px solid orange;
+  border-radius: 50%;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgb(23, 22, 22);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.3s linear;
+}
+
+.page-content {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.css-typing p {
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 5s steps(50, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type 5s steps(50, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 90%;
+  opacity: 0;
+  -webkit-animation: type2 4s steps(60, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type2 4s steps(60, end), blink 0.5s step-end infinite alternate;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#circle {
+  width: 70px;
+  height: 70px;
+}
+
+#circle2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}

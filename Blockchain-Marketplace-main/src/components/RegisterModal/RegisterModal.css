@@ -1,0 +1,43 @@
+.modal-open .modal {
+  overflow: auto;
+  overflow-y: auto;
+  background-color: #000000be;
+}
+
+.modal-content {
+  background-color: #191c22;
+  color: white;
+  padding: 13px;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.center-block {
+  position: relative;
+  left: 30%;
+}
+input {
+  width: 50%;
+  height: 60px;
+  background-color: #151414;
+  border-radius: 7px;
+  padding-left: 16px;
+  color: orange;
+}
+.create {
+  background: #151414;
+  width: 30%;
+}
+.create:hover {
+  border: 0.5px solid orange;
+  background: #151414;
+  color: orange;
+  width: 30%;
+}
+
+.modal-footer {
+  justify-content: space-between;
+}
